@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 魔方 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP59C5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/魔方.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Hengliy\C\魔方完整\C++完整\magic.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP59C5.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP59C6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/魔方.pdb" /debug /machine:I386 /out:"Debug/魔方.exe" /pdbtype:sept 
+".\Debug\face.obj"
+".\Debug\magic.obj"
+".\Debug\打印.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP59C6.tmp"
+<h3>Output Window</h3>
+Compiling...
+magic.cpp
+f:\hengliy\c\魔方完整\c++完整\magic.cpp(850) : warning C4018: '==' : signed/unsigned mismatch
+f:\hengliy\c\魔方完整\c++完整\magic.cpp(854) : warning C4018: '==' : signed/unsigned mismatch
+f:\hengliy\c\魔方完整\c++完整\magic.cpp(858) : warning C4018: '==' : signed/unsigned mismatch
+f:\hengliy\c\魔方完整\c++完整\magic.cpp(862) : warning C4018: '==' : signed/unsigned mismatch
+f:\hengliy\c\魔方完整\c++完整\magic.cpp(868) : warning C4018: '!=' : signed/unsigned mismatch
+f:\hengliy\c\魔方完整\c++完整\magic.cpp(868) : warning C4018: '!=' : signed/unsigned mismatch
+f:\hengliy\c\魔方完整\c++完整\magic.cpp(868) : warning C4018: '!=' : signed/unsigned mismatch
+f:\hengliy\c\魔方完整\c++完整\magic.cpp(868) : warning C4018: '!=' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+魔方.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
